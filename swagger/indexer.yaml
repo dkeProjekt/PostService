@@ -6,7 +6,7 @@ info:
   license:
     name: MIT
 
-basePath: /1.0
+basePath: /postindex
 
 schemes:
   - http
