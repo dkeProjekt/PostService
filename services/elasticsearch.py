@@ -34,6 +34,7 @@ class ElasticSearchIndex(object):
         self.elastic_factory = elastic_factory
         self.instance = None
 
+
     def connection(self) -> Elasticsearch:
         if not self.instance:
             self.instance = self.elastic_factory.create()

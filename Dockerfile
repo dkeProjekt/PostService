@@ -7,3 +7,5 @@ RUN pip install -r requirements.txt
 
 EXPOSE 9090
 CMD ["python", "/code/app.py"]
+
+
